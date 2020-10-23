@@ -1,5 +1,5 @@
 ---
-name: MultilingualConfigTrait
+name: multilingual-config-trait
 antigen: blugin\traits\multilingualconfig
 version: 1.0.1
 api: 3.0.0
