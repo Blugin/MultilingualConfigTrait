@@ -1,6 +1,6 @@
 ---
 name: multilingual-config-trait
-antigen: blugin\traits\multilingualconfig
+antigen: kim\present\traits\multilingualconfig
 version: 1.0.1
 api: 3.0.0
 authors: [PresentKim, Blugin-team]

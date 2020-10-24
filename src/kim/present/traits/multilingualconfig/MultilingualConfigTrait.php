@@ -22,7 +22,7 @@
 
 declare(strict_types=1);
 
-namespace blugin\traits\multilingualconfig;
+namespace kim\present\traits\multilingualconfig;
 
 use pocketmine\plugin\PluginBase;
 
