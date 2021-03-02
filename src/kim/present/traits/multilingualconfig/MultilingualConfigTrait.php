@@ -19,6 +19,9 @@
  *   (\ /)
  *  ( . .) ♥
  *  c(")(")
+ *
+ * @noinspection PhpIllegalPsrClassPathInspection
+ * @noinspection SpellCheckingInspection
  */
 
 declare(strict_types=1);
@@ -27,14 +30,11 @@ namespace kim\present\traits\multilingualconfig;
 
 use pocketmine\plugin\PluginBase;
 
-/**
- * This trait override most methods in the {@link PluginBase} abstract class.
- */
+/** This trait override most methods in the {@link PluginBase} abstract class. */
 trait MultilingualConfigTrait{
-    /**
-     * @Override for multilingual support of the config file
-     */
+    /** @Override for multilingual support of the config file */
     public function saveDefaultConfig() : bool{
+        /** @var PluginBase $this */
         $configFile = "{$this->getDataFolder()}config.yml";
         if(file_exists($configFile))
             return false;
